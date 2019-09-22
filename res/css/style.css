@@ -22,3 +22,17 @@ td + td { /* leave first unstyled for reasons unknown to man */
 footer > ul > li {
     display: inline;
 }
+
+
+/* small screen gang */
+@media (width <= 960px) {
+    section {
+        flex-wrap: wrap;
+    }
+}
+
+@media (width <= 512px) {
+    .picture-container img {
+        width: 300px;
+    }
+}
