@@ -1,0 +1,24 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+section {
+    display: flex;
+}
+
+#grades-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#grades-table th {
+    border: 1px solid black;
+}
+
+td + td { /* leave first unstyled for reasons unknown to man */
+    border-left: 1px dashed cadetblue;
+}
+
+footer > ul > li {
+    display: inline;
+}

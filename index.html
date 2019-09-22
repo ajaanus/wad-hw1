@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="res/images/favicon.ico">
     <link rel="stylesheet" href="res/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <title>Hello world!</title>
 </head>
 
@@ -13,26 +15,27 @@
 </header>
 
 <section>
-    <div>
+    <div class="about_me">
+    <div class="picture-container">
         <img src="res/images/me.png" alt="My picture" title="Not really my picture">
     </div>
-    <div>
+    <div class="info">
         <ol>
             <li>John Doe</li>
             <li>27/06/1993</li>
             <li>Software Engineering</li>
         </ol>
     </div>
-    <div>
+    <div> <!-- what even is this tbh, gpa? -->
         <strong>2.65</strong>
     </div>
-</section>
+    </div>
 
-<section>
+    <div class="courses">
     <h1>
         <span>Courses</span>
     </h1>
-    <table>
+    <table id="grades-table">
         <thead>
         <tr>
             <th>#</th>
@@ -68,9 +71,10 @@
         </tr>
         </tbody>
     </table>
+    </div>
 </section>
 
-<footer>
+<footer style="text-align: center; color: gray;">
     <ul>
         <li>
             <a href="https://ois2.ut.ee/">OIS</a>
